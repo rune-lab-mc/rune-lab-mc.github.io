@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://robin-f-hall.github.io/al-folio/sitemap.xml
+Sitemap: https://robin-f-hall.github.io/sitemap.xml
