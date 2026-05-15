@@ -8,10 +8,7 @@ profile:
   align: right
   image: headshot.png
   image_circular: false # crops the image to make it circular
-  # more_info: >
-   # <p>555 your office number</p>
-  #  <p>123 your address street</p>
-   # <p>Your City, State 12345</p>
+  
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -25,14 +22,14 @@ latest_posts:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
----
+
 <style>
   a {
     color: blue;
   }
 </style>
 # <a href="https://example.com" style="color: red;">Red Link</a>
-
+---
 Hello! My name is Robin Hall, I am an Assitant Professor of Electromechanical Engineering at [Merrimack College](https://www.merrimack.edu/). I am the PI of the RUNE Lab (Robots for Unmanned Natural Exploration)
 
 Before joining Merrimack in 2025, I received my PhD in Robotics Engineering from Worcester Polytechnic Institute (advised by Prof. Cagdas D. Onal in the [Soft Robotics Lab](https://softrobotics.wpi.edu/)). In 2020, I completed my BS in Electrical Engineering at the University of Rhode Island, where I conducted undergraduate research with Prof. [Paolo Stegagno](https://web.uri.edu/icrl/).
