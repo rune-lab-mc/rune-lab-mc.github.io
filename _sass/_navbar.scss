@@ -187,49 +187,58 @@
   }
 }
 
-/* Custom Home + RUNE Lab navbar */
-.navbar-nav {
-  align-items: center;
-}
-
-.navbar-nav .nav-item {
+/* Custom Home + RUNE Lab navbar override */
+#navbar .navbar-nav {
   display: flex;
   align-items: center;
 }
 
-.navbar-nav .nav-link {
+#navbar .navbar-nav .nav-item {
   display: flex;
   align-items: center;
 }
 
-.home-nav-link {
+#navbar .navbar-nav .nav-link {
+  display: flex;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* Force Home link to be blue, including when active */
+#navbar .navbar-nav .nav-item .home-nav-link,
+#navbar .navbar-nav .nav-item.active > .home-nav-link,
+#navbar.navbar-light .navbar-nav .nav-item.active > .home-nav-link {
   color: #0047cc !important;
-  display: flex;
-  align-items: center;
+  height: 80px;
+  line-height: 80px;
   font-size: 1rem;
+  font-weight: 400;
 }
 
-.navbar.navbar-light .navbar-nav .nav-item.active > .home-nav-link {
-  color: #0047cc !important;
-}
-
-.lab-navbar-link {
+/* Lab logo + text */
+#navbar .lab-navbar-link {
   display: flex;
   align-items: center;
   gap: 0.4rem;
+  height: 80px;
+  padding-top: 0;
+  padding-bottom: 0;
   font-weight: 700;
 }
 
-.lab-navbar-logo {
+#navbar .lab-navbar-logo {
   height: 80px;
   width: auto;
   display: block;
 }
 
-.lab-navbar-text {
+#navbar .lab-navbar-text {
   display: flex;
   align-items: center;
+  height: 80px;
+  line-height: 80px;
   font-size: 1rem;
-  line-height: 1;
+  font-weight: 700;
   color: var(--global-text-color);
 }
