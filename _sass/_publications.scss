@@ -187,12 +187,22 @@
   color: var(--global-theme-color);
 }
 
-.bibliography .author > em,
-.bibliography .author em {
+.publications .author em,
+.bibliography .author em,
+.publications em,
+.bibliography em {
   text-decoration: underline;
   font-style: normal;
 }
-.pub-video-link,
-.pub-doi-link {
+
+/* Make video and DOI links blue */
+.publications a[href*="youtu"],
+.publications a[href*="youtube"],
+.publications a[href*="doi.org"],
+.publications a[href*="10."],
+.bibliography a[href*="youtu"],
+.bibliography a[href*="youtube"],
+.bibliography a[href*="doi.org"],
+.bibliography a[href*="10."] {
   color: #0047cc;
 }
