@@ -19,17 +19,14 @@ announcements:
 custom_sections:
   - title: teaching
     content: |
- Instructor: Merrimack College
-<ul>
-  <li> MEN 2050: MATLAB & CAD (Fall 2025) </li>
-  <li> EEN 2270: Embedded Controllers (Spring 2026) </li>
-</ul>
+      Instructor: Merrimack College
+
+      - MEN 2050: MATLAB & CAD (Fall 2025)
+      - EEN 2270: Embedded Controllers (Spring 2026)
 
   - title: service
     content: |
-      <ul>
-        <li>**Reviewer:** RA-L, ICRA, RoboSoft </li>
-      </ul>
+      - **Reviewer:** RA-L, ICRA, RoboSoft
 
   - title: outreach
     content: |
