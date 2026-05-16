@@ -154,17 +154,6 @@
     transform: rotate(0);
   }
 }
-.lab-navbar-link {
-  display: flex;
-  align-items: center;
-  gap: 0.35rem;
-  font-weight: 600;
-}
-
-.lab-navbar-logo {
-  height: 100px;
-  width: auto;
-  display: inline-block;
 }
 #light-toggle {
   padding: 0;
@@ -198,4 +187,46 @@
   &:hover {
     color: var(--global-hover-color);
   }
+}
+/* Custom Home + RUNE Lab navbar */
+.navbar-nav {
+  align-items: center;
+}
+
+.navbar-nav .nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav .nav-link {
+  display: flex;
+  align-items: center;
+}
+
+.home-nav-link {
+  color: #0047cc !important;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.lab-navbar-link {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 700;
+}
+
+.lab-navbar-logo {
+  height: 80px;
+  width: auto;
+  display: block;
+}
+
+.lab-navbar-text {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  line-height: 1;
+  color: var(--global-text-color);
 }
