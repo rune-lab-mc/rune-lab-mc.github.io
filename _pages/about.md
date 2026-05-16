@@ -19,15 +19,17 @@ announcements:
 custom_sections:
   - title: teaching
     content: |
-      Add your teaching text here.
-
-      You can use Markdown links, like [Merrimack College](https://www.merrimack.edu/).
+ Instructor: Merrimack College
+<ul>
+  <li> MEN 2050: MATLAB & CAD (Fall 2025) </li>
+  <li> EEN 2270: Embedded Controllers (Spring 2026) </li>
+</ul>
 
   - title: service
     content: |
-      Add your service text here.
-
-      Example: reviewer roles, committee work, conference service, mentoring, etc.
+      <ul>
+        <li>**Reviewer:** RA-L, ICRA, RoboSoft </li>
+      </ul>
 
   - title: outreach
     content: |
