@@ -204,3 +204,10 @@
   color: #003399 !important;
   border-color: #003399 !important;
 }
+.publications ol.bibliography li .preview {
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
