@@ -443,7 +443,7 @@ ninja.data = [{
             },},{id: "news-our-paper-a-soft-robot-for-agile-and-efficient-marine-locomotion-has-been-accepted-for-publication-in-npj-robotics",
           title: 'Our paper, “A Soft Robot for Agile and Efficient Marine Locomotion,” has been...',
           description: "",
-          section: "News",},{id: "news-invited-as-a-guest-lecturer-in-professor-cagdas-d-onal-s-soft-robotics-course-at-the-wpi-where-i-presented-my-work-on-soft-underwater-robots",
+          section: "News",},{id: "news-invited-as-a-guest-lecturer-in-professor-cagdas-d-onal-s-soft-robotics-course-at-wpi-where-i-presented-my-work-on-soft-underwater-robots",
           title: 'Invited as a guest lecturer in Professor Cagdas D. Onal’s Soft Robotics course...',
           description: "",
           section: "News",},{id: "news-invited-flash-talk-at-the-3rd-unconventional-robots-workshop-at-icra-2026-workshop-link",
