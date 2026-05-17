@@ -5,7 +5,7 @@ permalink: /
 
 profile:
   align: right
-  image: website-headshot.png
+  image: website-headshot.jpeg
   image_circular: false
 
 selected_papers: true
