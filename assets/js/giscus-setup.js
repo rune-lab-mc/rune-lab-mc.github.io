@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "robin-f-hall/robin-f-hall.github.io",
+    "data-repo": "robin-hall/robin-f-hall.github.io",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",
