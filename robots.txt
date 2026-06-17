@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://robin-hall.github.io/sitemap.xml
+Sitemap: https://rune-lab-mc.github.io/sitemap.xml
