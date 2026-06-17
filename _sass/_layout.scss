@@ -41,6 +41,14 @@ body.sticky-bottom-footer {
   }
 }
 
+{% if page.hero_video %}
+  <section class="video-hero">
+    <video autoplay muted loop playsinline preload="metadata">
+      <source src="{{ page.hero_video | prepend: '/assets/video/' | relative_url }}" type="video/mp4">
+    </video>
+  </section>
+{% endif %}
+
 // Content layout uses Bootstrap's grid system with responsive columns
 // Main content flows naturally through container-mt-5 and Bootstrap grid classes
 // See _layouts/default.liquid and _includes/projects.liquid for examples
