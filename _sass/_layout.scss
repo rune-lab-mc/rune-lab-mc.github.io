@@ -89,3 +89,112 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+
+/******************************************************************************
+ * People page
+ ******************************************************************************/
+
+.people-page {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.people-page h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-top: 3.5rem;
+  margin-bottom: 2rem;
+  color: var(--global-text-color);
+}
+
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 320px));
+  gap: 3rem;
+  align-items: start;
+  margin-bottom: 4rem;
+}
+
+.person-card {
+  text-align: center;
+}
+
+.person-card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 1.25rem;
+  display: block;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+  margin-bottom: 1.5rem;
+}
+
+.person-card h3 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-bottom: 0.35rem;
+}
+
+.person-card h3 a {
+  color: var(--global-text-color);
+  text-decoration: none;
+}
+
+.person-card h3 a:hover {
+  color: var(--global-theme-color);
+  text-decoration: none;
+}
+
+.person-card p {
+  font-size: 1.15rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--global-text-color-light);
+  letter-spacing: 0.04em;
+  margin-bottom: 0;
+}
+
+.alumni-list {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+
+.alumni-item {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr 1.8fr;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+  font-size: 1.05rem;
+}
+
+.alumni-item strong {
+  font-weight: 800;
+}
+
+.alumni-item span {
+  color: var(--global-text-color-light);
+}
+
+@media (max-width: 768px) {
+  .people-page h2 {
+    font-size: 2.25rem;
+    margin-top: 3rem;
+  }
+
+  .people-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .person-card {
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  .alumni-item {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+}
