@@ -41,13 +41,9 @@ body.sticky-bottom-footer {
   }
 }
 
-{% if page.hero_video %}
-  <section class="video-hero">
-    <video autoplay muted loop playsinline preload="metadata">
-      <source src="{{ page.hero_video | prepend: '/assets/video/' | relative_url }}" type="video/mp4">
-    </video>
-  </section>
-{% endif %}
+/******************************************************************************
+ * Full-screen video hero
+ ******************************************************************************/
 
 .video-hero {
   position: relative;
@@ -59,6 +55,7 @@ body.sticky-bottom-footer {
   border-radius: 0;
   margin-top: 0;
   margin-bottom: 3rem;
+  background: black;
 }
 
 .video-hero video {
@@ -66,6 +63,40 @@ body.sticky-bottom-footer {
   height: 100%;
   object-fit: cover;
   display: block;
+}
+
+/* Optional overlay text */
+.video-hero-overlay {
+  position: absolute;
+  left: 3rem;
+  bottom: 3rem;
+  z-index: 2;
+  color: white;
+}
+
+.video-hero-overlay h1 {
+  font-size: clamp(3rem, 7vw, 6rem);
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.video-hero-overlay p {
+  font-size: clamp(1.25rem, 2.5vw, 2rem);
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+@media (max-width: 576px) {
+  .video-hero {
+    height: calc(100vh - 80px);
+    margin-bottom: 2rem;
+  }
+
+  .video-hero-overlay {
+    left: 1.25rem;
+    bottom: 1.25rem;
+  }
 }
 
 // Content layout uses Bootstrap's grid system with responsive columns
