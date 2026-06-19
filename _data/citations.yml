@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-25'
+  last_updated: '2026-06-19'
 papers:
   WQpEZz0AAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -13,6 +13,10 @@ papers:
     citations: 0
     title: Soft Underwater Robots
     year: '2025'
+  WQpEZz0AAAAJ:Tyk-4Ss8FVUC:
+    citations: 0
+    title: A soft robot for agile and efficient marine locomotion
+    year: '2026'
   WQpEZz0AAAAJ:UeHWp8X0CEIC:
     citations: 0
     title: 'HexaFlex: Design and Testing of a Hexapod with a Flexible Origami-Inspired Spine'
@@ -22,7 +26,7 @@ papers:
     title: Design and testing of a multi-module, tetherless, soft robotic eel
     year: '2024'
   WQpEZz0AAAAJ:qjMakFHDy7sC:
-    citations: 1
+    citations: 2
     title: 'SURF-COM: An Open Source Acoustic Controller for Soft Underwater Robots'
     year: '2025'
   WQpEZz0AAAAJ:u-x6o8ySG0sC:
@@ -30,7 +34,7 @@ papers:
     title: The effect of design and control parameters of a soft robotic fish tail to maximize propulsion force in undulatory actuation
     year: '2022'
   WQpEZz0AAAAJ:u5HHmVD_uO8C:
-    citations: 69
+    citations: 72
     title: 'Soft mobile robots: A review of soft robotic locomotion modes'
     year: '2021'
   WQpEZz0AAAAJ:zYLM7Y9cAGgC:
