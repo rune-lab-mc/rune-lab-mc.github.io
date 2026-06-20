@@ -1,28 +1,70 @@
 ---
-layout: profiles
+layout: page
 permalink: /people/
-title: people
+title: People
 description: members of the lab or group
 nav: true
 nav_order: 7
-
-profiles:
-  # if you want to include more than one profile, just replicate the following block
-  # and create one content file for each profile inside _pages/
-  - align: right
-    image: prof_pic.jpg
-    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
-  - align: left
-    image: prof_pic.jpg
-    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
 ---
+
+<div class="people-page">
+
+  <h2>PI</h2>
+
+  <div class="people-grid">
+    <div class="person-card">
+      <img src="{{ '/assets/img/people/robin-hall.jpg' | relative_url }}" alt="Robin Hall">
+      <h3>
+        <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_HERE/" target="_blank" rel="noopener noreferrer">
+          Robin Hall
+        </a>
+      </h3>
+      <p>Principal Investigator</p>
+    </div>
+  </div>
+
+  <h2>Master's Students</h2>
+
+  <div class="people-grid">
+    <div class="person-card">
+      <img src="{{ '/assets/img/people/student-name.jpg' | relative_url }}" alt="Student Name">
+      <h3>
+        <a href="https://www.linkedin.com/in/STUDENT_LINKEDIN_HERE/" target="_blank" rel="noopener noreferrer">
+          Student Name
+        </a>
+      </h3>
+      <p>M.S. Student</p>
+    </div>
+  </div>
+
+  <h2>Undergraduate Students</h2>
+
+  <div class="people-grid">
+    <div class="person-card">
+      <img src="{{ '/assets/img/people/student-name.jpg' | relative_url }}" alt="Student Name">
+      <h3>
+        <a href="https://www.linkedin.com/in/STUDENT_LINKEDIN_HERE/" target="_blank" rel="noopener noreferrer">
+          Student Name
+        </a>
+      </h3>
+      <p>Undergraduate Researcher</p>
+    </div>
+  </div>
+
+  <h2>Lab Alumni</h2>
+
+  <div class="alumni-list">
+    <div class="alumni-item">
+      <strong>Alumni Name</strong>
+      <span>Former Undergraduate Researcher</span>
+      <span>Now: Graduate Student at Example University</span>
+    </div>
+
+    <div class="alumni-item">
+      <strong>Alumni Name</strong>
+      <span>Former M.S. Student</span>
+      <span>Now: Robotics Engineer at Example Company</span>
+    </div>
+  </div>
+
+</div>
