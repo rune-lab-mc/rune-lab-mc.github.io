@@ -2,6 +2,8 @@
 layout: page
 title: People
 permalink: /people/
+nav: true
+nav_order: 2
 ---
 
 <div class="people-page">
@@ -26,7 +28,7 @@ permalink: /people/
     <div class="person-card">
       <img src="{{ '/assets/img/people/student-name.jpg' | relative_url }}" alt="Student Name">
       <h3>
-        <a href="https://www.linkedin.com/in/STUDENT_LINKEDIN/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/STUDENT_LINKEDIN_HERE/" target="_blank" rel="noopener noreferrer">
           Student Name
         </a>
       </h3>
@@ -40,7 +42,7 @@ permalink: /people/
     <div class="person-card">
       <img src="{{ '/assets/img/people/student-name.jpg' | relative_url }}" alt="Student Name">
       <h3>
-        <a href="https://www.linkedin.com/in/STUDENT_LINKEDIN/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/STUDENT_LINKEDIN_HERE/" target="_blank" rel="noopener noreferrer">
           Student Name
         </a>
       </h3>
