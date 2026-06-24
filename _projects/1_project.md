@@ -1,81 +1,107 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: DRAGON
+description: Flexible vectored underwater vehicle
+
 importance: 1
 category: work
-related_publications: true
+
+# Research page thumbnail
+# Use either thumbnail_image OR thumbnail_video.
+# If both are listed, the video will be preferred by the custom project card code.
+thumbnail_image: assets/img/projects/dragon-pool-pic.jpg
+thumbnail_video: assets/video/projects/dragon-thumbnail.mp4
+
+# Main media on the project page
+# Use either main_image OR main_video.
+# If both are listed, the video will be shown.
+main_image: assets/img/projects/dragon-pool-pic.jpg
+main_video: assets/img/projects/dragon-main.mp4
+
+papers:
+  - title: A Soft Robot for Agile and Efficient Marine Locomotion
+    venue: npj Robotics
+    url: https://doi.org/10.1038/s44182-026-00089-w
+  - title: Untethered Underwater Soft Robot with Thrust Vectoring
+    venue: ICRA 2024
+    url: https://doi.org/10.1109/ICRA57147.2024.10610430
+
+videos:
+  - title: DRAGON 3D
+    url: https://youtu.be/J-VXVhMY5ec
+  - title: DRAGON 1
+    url: https://youtu.be/S9OxFPv63ZI
+
+# more_info:
+#  - title: GitHub
+#    url: https://github.com/YOUR-GITHUB-LINK-HERE
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<div class="project-detail-page">
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  {% if page.main_video %}
+    <div class="project-main-media">
+      <video autoplay muted loop playsinline preload="metadata">
+        <source src="{{ page.main_video | relative_url }}" type="video/mp4">
+      </video>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  {% elsif page.main_image %}
+    <div class="project-main-media">
+      <img src="{{ page.main_image | relative_url }}" alt="{{ page.title }}">
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+  {% endif %}
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+  <h2>Overview</h2>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <p>
+    DRAGON is the first developed flexible fectored underwater vehicle. It is designed by 
+    combining a single thruster with a flexible spine, enabling thrust vectoring for rapid and agile 3D motion.
+    The project explores soft robotic design, underwater locomotion, and compact actuation for operation in aquatic environments.
+  </p>
+
+  {% if page.papers %}
+    <h2>Associated Papers</h2>
+
+    <ul class="project-link-list">
+      {% for paper in page.papers %}
+        <li>
+          <a href="{{ paper.url }}" target="_blank" rel="noopener noreferrer">
+            {{ paper.title }}
+          </a>
+          {% if paper.venue %}
+            <span>{{ paper.venue }}</span>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  {% if page.videos %}
+    <h2>Associated Videos</h2>
+
+    <ul class="project-link-list">
+      {% for video in page.videos %}
+        <li>
+          <a href="{{ video.url }}" target="_blank" rel="noopener noreferrer">
+            {{ video.title }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  {% if page.more_info %}
+    <h2>More Info</h2>
+
+    <ul class="project-link-list">
+      {% for item in page.more_info %}
+        <li>
+          <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
+            {{ item.title }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
