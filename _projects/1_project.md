@@ -10,13 +10,13 @@ category: Research
 # Use either thumbnail_image OR thumbnail_video.
 # If both are listed, the video will be preferred by the custom project card code.
 thumbnail_image: assets/img/projects/dragon-pool-pic.jpg
-thumbnail_video: assets/video/projects/dragon-thumbnail.mp4
+# thumbnail_video: assets/video/projects/dragon-thumbnail.mp4
 
 # Main media on the project page
 # Use either main_image OR main_video.
 # If both are listed, the video will be shown.
 main_image: assets/img/projects/dragon-pool-pic.jpg
-main_video: assets/img/projects/dragon-main.mp4
+main_video: assets/video/website video.mp4
 
 papers:
   - title: A Soft Robot for Agile and Efficient Marine Locomotion
