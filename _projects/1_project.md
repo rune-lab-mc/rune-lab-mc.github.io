@@ -1,10 +1,10 @@
 ---
 layout: page
 title: DRAGON
-description: Flexible vectored underwater vehicle
+description: Flexible Vectored Underwater Vehicle
 
 importance: 1
-category: work
+category: Research
  
 # Research page thumbnail
 # Use either thumbnail_image OR thumbnail_video.
@@ -60,7 +60,7 @@ videos:
   </p>
 
   {% if page.papers %}
-    <h2>Associated Papers</h2>
+    <h2>Papers</h2>
 
     <ul class="project-link-list">
       {% for paper in page.papers %}
@@ -77,7 +77,7 @@ videos:
   {% endif %}
 
   {% if page.videos %}
-    <h2>Associated Videos</h2>
+    <h2>Videos</h2>
 
     <ul class="project-link-list">
       {% for video in page.videos %}
