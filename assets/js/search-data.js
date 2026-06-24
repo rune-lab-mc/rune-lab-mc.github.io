@@ -103,7 +103,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-dragon",
           title: 'DRAGON',
-          description: "Flexible vectored underwater vehicle",
+          description: "Flexible Vectored Underwater Vehicle",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "teachings-data-science-fundamentals",
