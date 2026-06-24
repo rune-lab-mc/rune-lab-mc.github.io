@@ -15,11 +15,11 @@ nav_order: 7
     <div class="person-card">
       <img src="{{ '/assets/img/people/robin-hall.jpg' | relative_url }}" alt="Robin Hall">
       <h3>
-        <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_HERE/" target="_blank" rel="noopener noreferrer">
+        <a href="https://robin-hall.github.io/" target="_blank" rel="noopener noreferrer">
           Robin Hall
         </a>
       </h3>
-      <p>Principal Investigator</p>
+      <p>Assistant Professor of Electromechanical Engineering</p>
     </div>
   </div>
 
@@ -30,10 +30,10 @@ nav_order: 7
       <img src="{{ '/assets/img/people/student-name.jpg' | relative_url }}" alt="Student Name">
       <h3>
         <a href="https://www.linkedin.com/in/STUDENT_LINKEDIN_HERE/" target="_blank" rel="noopener noreferrer">
-          Student Name
+          Micah Green
         </a>
       </h3>
-      <p>M.S. Student</p>
+
     </div>
   </div>
 
@@ -44,13 +44,13 @@ nav_order: 7
       <img src="{{ '/assets/img/people/student-name.jpg' | relative_url }}" alt="Student Name">
       <h3>
         <a href="https://www.linkedin.com/in/STUDENT_LINKEDIN_HERE/" target="_blank" rel="noopener noreferrer">
-          Student Name
+          Junior De Los Santos
         </a>
       </h3>
-      <p>Undergraduate Researcher</p>
+      
     </div>
   </div>
-
+<!--
   <h2>Lab Alumni</h2>
 
   <div class="alumni-list">
@@ -66,5 +66,5 @@ nav_order: 7
       <span>Now: Robotics Engineer at Example Company</span>
     </div>
   </div>
-
+-->
 </div>
