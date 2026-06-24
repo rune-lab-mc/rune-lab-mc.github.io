@@ -20,6 +20,10 @@
           alt=project.title
           class="card-img-top project-card-media"
         %}
+      {% else %}
+        <div class="project-card-media project-card-placeholder">
+          <span>{{ project.title }}</span>
+        </div>
       {% endif %}
 
       <div class="card-body">
