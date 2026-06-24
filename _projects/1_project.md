@@ -5,7 +5,7 @@ description: Flexible vectored underwater vehicle
 
 importance: 1
 category: work
-
+ 
 # Research page thumbnail
 # Use either thumbnail_image OR thumbnail_video.
 # If both are listed, the video will be preferred by the custom project card code.
