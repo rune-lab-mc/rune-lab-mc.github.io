@@ -13,7 +13,7 @@ nav_order: 7
 
   <div class="people-grid">
     <div class="person-card">
-      <img src="{{ '/assets/img/people/robin-hall.jpg' | relative_url }}" alt="Robin Hall">
+      <img src="{{ '/assets/img/people//website-headshot.jpeg' | relative_url }}" alt="Robin Hall">
       <h3>
         <a href="https://robin-hall.github.io/" target="_blank" rel="noopener noreferrer">
           Robin Hall
