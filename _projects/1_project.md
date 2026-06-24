@@ -9,7 +9,7 @@ category: Research
 # Research page thumbnail
 # Use either thumbnail_image OR thumbnail_video.
 # If both are listed, the video will be preferred by the custom project card code.
-thumbnail_image: assets/img/projects/dragon-pool-pic.jpg
+thumbnail_image: assets/img/projects/dragon-fold.jpg
 # thumbnail_video: assets/video/projects/dragon-thumbnail.mp4
 
 # Main media on the project page
@@ -54,8 +54,8 @@ videos:
   <h2>Overview</h2>
 
   <p>
-    DRAGON is the first developed flexible fectored underwater vehicle. It is designed by 
-    combining a single thruster with a flexible spine, enabling thrust vectoring for rapid and agile 3D motion.
+    DRAGON: Deformable Robot for Agile Guided Observation and Navigation is the first developed flexible fectored underwater vehicle. It is designed 
+   by combining a single thruster with a flexible spine, enabling thrust vectoring for rapid and agile 3D motion.
     The project explores soft robotic design, underwater locomotion, and compact actuation for operation in aquatic environments.
   </p>
 
