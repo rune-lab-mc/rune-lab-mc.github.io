@@ -264,3 +264,61 @@ body.sticky-bottom-footer {
 video.project-card-media {
   background: black;
 }
+
+/******************************************************************************
+ * Contact page
+ ******************************************************************************/
+
+.contact-page {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-intro {
+  font-size: 1.25rem;
+  line-height: 1.7;
+  max-width: 720px;
+  margin: 0 auto 3rem auto;
+}
+
+.contact-icons-large {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.contact-icons-large a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 2rem 1rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 1rem;
+  color: #0047cc !important;
+  text-decoration: none;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.contact-icons-large a:hover {
+  color: #003399 !important;
+  border-color: #0047cc;
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+  text-decoration: none;
+}
+
+.contact-icons-large i {
+  font-size: 2.5rem;
+}
+
+.contact-icons-large span {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
