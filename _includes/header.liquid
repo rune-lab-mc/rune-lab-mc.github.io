@@ -68,6 +68,16 @@
     </div>
   </nav>
 
+<!-- Contact -->
+<li class="nav-item {% if page.permalink == '/contact/' or page.url contains '/contact/' %}active{% endif %}">
+  <a class="nav-link" href="{{ '/contact/' | relative_url }}">
+    Contact
+    {% if page.permalink == '/contact/' or page.url contains '/contact/' %}
+      <span class="sr-only">(current)</span>
+    {% endif %}
+  </a>
+</li>
+
   {% if site.enable_progressbar %}
     <!-- Scrolling Progress Bar -->
     <progress id="progress" value="0">
