@@ -106,6 +106,11 @@ ninja.data = [{
           description: "Flexible Vectored Underwater Vehicle",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
+            },},{id: "projects-more-coming-soon",
+          title: 'More Coming Soon',
+          description: "Reach out for info on our ongoing or unpublished research",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
