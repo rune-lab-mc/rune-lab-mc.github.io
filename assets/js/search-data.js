@@ -114,8 +114,8 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-more-coming-soon",
-          title: 'More Coming Soon',
-          description: "Reach out for info on our ongoing or unpublished research",
+          title: 'More Coming Soon!',
+          description: "Reach out if you want to learn more about any of our ongoing research",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "teachings-data-science-fundamentals",
